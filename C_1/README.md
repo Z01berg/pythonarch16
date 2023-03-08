@@ -1,4 +1,4 @@
-﻿# [Zajęcia 1](python1.pdf)
+# [Zajęcia 1](python1.pdf)
 -[x] Zainstalować na swoim komputerze Python’a
 -[x] Zainstalować PyCharm
 -[x] [Utworzyć nowe środowisko wirtualne zainstalować moduł do odtwarzania dźwięku i odtworzyć
