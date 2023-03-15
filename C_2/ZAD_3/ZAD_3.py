@@ -15,7 +15,7 @@ with open("TEST.txt") as f:
                 else:
                     continue
 
-            elif line.startswith("    -"):
+            elif line.startswith("    - "):
                 print("- " + line.strip()[2:])
                 answer = input("> ")
 
@@ -26,7 +26,7 @@ with open("TEST.txt") as f:
                     f_out.write("   - " + line.strip()[2:] + "\n")
                 else:
                     continue
-            elif line.startswith("     "):
+            elif line.startswith("\n"):
                 iloscODP = 0
                 continue
             else:
