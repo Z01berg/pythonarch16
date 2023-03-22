@@ -1,4 +1,4 @@
-# [Zajęcia 2](python2.pdf)
+# [Zajęcia 3](lab3.pdf)
 - [x] [Napisz program, który pobierze od użytkownika liczby rozdzielone przecinkiem a następnie
 policzy znajdzie ich max oraz min, bez używania wbudowanych funkcji. (20%)](./ZAD_1)
 - [x] [Napisz program, który wyświetli plan wycieczki – wybierając losowo z listy 10 największych
