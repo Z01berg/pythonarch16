@@ -1,4 +1,4 @@
-# [Zajęcia 5](lab5.pdf)
+# [Zajęcia 5](ZAD_1/lab5.pdf)
 
 - [x] [Wczyta z pliku dane dotyczące studentów email, imię, nazwisko oraz liczbę uzyskanych
 punktów z przedmiotu Podstawy Programowania Python. Dodatkowo w pliku mogą znajdować się
