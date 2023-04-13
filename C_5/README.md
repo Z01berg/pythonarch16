@@ -7,7 +7,7 @@ Zakładamy, że plik istnieje
 może być pusty lub zawiera podstawowe informacje:
 email, imię, nazwisko, punkty. Do przechowywania danych w programie
 użyj słownika oraz
-zagnieżdżania (20%).](./ZAD_1/zad_1)
+zagnieżdżania (20%).](./ZAD_1/zad_1.py)
 - [x]  Umożliwi automatyczne wystawianie oceny wszystkim studentom, którzy jeszcze nie mają
 wystawionej oceny (status różny od GRADED oraz MAILED), zgodnie z punktacją
 zaproponowaną w regulaminie zaliczenia przedmiotu (
