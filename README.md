@@ -5,3 +5,4 @@ Zestawy zadań:
 - [x] [2 Zestaw zadań](./C_2)
 - [x] [3 Zestaw zadań](./C_3)
 - [x] [4 Zestaw zadań](./C_4)
+- [x] [5 Zestaw zadań](./C_5)

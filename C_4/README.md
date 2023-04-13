@@ -1,4 +1,4 @@
-# [Zajęcia 3](lab4.pdf)
+# [Zajęcia 4](lab4.pdf)
 - [x] [Napisz funkcję obliczającą i zwracającą ilość potrzebnych opakowań paneli w danym
 pomieszczeniu, zakładając prostokątną podłogę i prostokątne panele. Dane wejściowe to długość i
 szerokość podłogi. (do powierzchni pomieszczenia należy dodać 10%) długość i szerokość panela
