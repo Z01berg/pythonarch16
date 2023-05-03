@@ -1,4 +1,4 @@
-# [Zajęcia 6](ZAD_1/lab6b.pdf)
+# [Zajęcia 6](./ZAD_1/lab6b.pdf)
 
 - [x] [Zadanie1
 Napisz klasę MyLinkedList – która będzie posortowana,wiązana oraz jednostronna.
