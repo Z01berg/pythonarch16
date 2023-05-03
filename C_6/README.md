@@ -19,7 +19,7 @@ delete(self,e) – usuwa wskazany element,
 (25%)
 append (self, e, func=None) – dodaje elementy do listy w sposób posortowany. (25%)
 func – jaki będzie warunek sortownia – określi funkcja, jeżeli None – zwykłe porównanie 2
-obiektów za pomocą >=](./ZAD_1/zad_1.py)
+obiektów za pomocą >=](./ZAD_1)
 - [x]  [Zadanie2 (40%):
 Zmodyfikować zadanie z poprzednich zajęć tak aby używała klasy Student ,MySortedList oraz aby
 ocenianie przebiegało zgodnie z zasadami zaliczenia:
@@ -33,7 +33,7 @@ W zależności od średniej z prac domowych, należy zastąpić najsłabsze ocen
 Ocenę końcową można wystawić tylko kiedy wszystkie oceny cząstkowe są wystawione.
 Należy umożliwić przy wysyłaniu emaila podanie nowego statusu, oraz umożliwić podanie
 statusów, przy których chcemy wysyłać email. E-mail można wysłać zawsze jeżeli status na to
-pozwala.]()
+pozwala.](./ZAD_2)
 
 
 
