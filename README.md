@@ -6,3 +6,5 @@ Zestawy zadań:
 - [x] [3 Zestaw zadań](./C_3)
 - [x] [4 Zestaw zadań](./C_4)
 - [x] [5 Zestaw zadań](./C_5)
+- [x] [Kolos](./kolos)
+- [x] [6 Zestaw zadań](./C_6)
