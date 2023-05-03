@@ -1,22 +1,39 @@
 # [Zajęcia 6](ZAD_1/lab5.pdf)
 
-- [x] [Wczyta z pliku dane dotyczące studentów email, imię, nazwisko oraz liczbę uzyskanych
-punktów z przedmiotu Podstawy Programowania Python. Dodatkowo w pliku mogą znajdować się
-w tej samej linii dane dotyczące oceny końcowej oraz statusu (‘’, GRADED, MAILED).
-Zakładamy, że plik istnieje
-może być pusty lub zawiera podstawowe informacje:
-email, imię, nazwisko, punkty. Do przechowywania danych w programie
-użyj słownika oraz
-zagnieżdżania (20%).](./ZAD_1/zad_1.py)
-- [x]  Umożliwi automatyczne wystawianie oceny wszystkim studentom, którzy jeszcze nie mają
-wystawionej oceny (status różny od GRADED oraz MAILED), zgodnie z punktacją
-zaproponowaną w regulaminie zaliczenia przedmiotu (
-- [x]  Umożliwi usuwanie oraz dodawanie studentów ręcznie (sprawdzanie czy email jest już zajęty)
-(
-- [x]  Umożliwi wysyłanie emaila z informacją o wystawionej ocenie wszystkim studentom ze
-statusem innym niż MAILED (20%).
-- [x]  Każda zmiana
-dodawani e / usuwanie danych studenta, wysłanie maila, ocena zapisze zmiany
-również w pliku (20%)
+- [x] [Zadanie1
+Napisz klasę MyLinkedList – która będzie posortowana,wiązana oraz jednostronna.
+Używając dodatkowo klasy:
+class Element:
+def __init__(self, data=None, nextE=None):
+self.data = data
+self.nextE = nextE
+Klasa MyLinkedList zawiera pola:
+...
+self.head = None
+self.tail = None
+self.size = 0
+z metodami:
+__str__ - reprezentacja napisowa listy – wszystkie elementy listy (5%)
+get(self, e) – zwraca element, (5%)
+delete(self,e) – usuwa wskazany element,
+(25%)
+append (self, e, func=None) – dodaje elementy do listy w sposób posortowany. (25%)
+func – jaki będzie warunek sortownia – określi funkcja, jeżeli None – zwykłe porównanie 2
+obiektów za pomocą >=](./ZAD_1/zad_1.py)
+- [x]  [Zadanie2 (40%):
+Zmodyfikować zadanie z poprzednich zajęć tak aby używała klasy Student ,MySortedList oraz aby
+ocenianie przebiegało zgodnie z zasadami zaliczenia:
+1 ocena za projekt – 40 pkt
+3 oceny z list z zadaniami – 20 pkt każda
+Oceny z prac domowych.
+W zależności od średniej z prac domowych, należy zastąpić najsłabsze oceny z list od 1 do 3.
+60% - jedna lista (20pkt)
+70% - dwie listy (40pkt)
+80% - trzy listy (60 pkt)
+Ocenę końcową można wystawić tylko kiedy wszystkie oceny cząstkowe są wystawione.
+Należy umożliwić przy wysyłaniu emaila podanie nowego statusu, oraz umożliwić podanie
+statusów, przy których chcemy wysyłać email. E-mail można wysłać zawsze jeżeli status na to
+pozwala.]()
+
 
 
