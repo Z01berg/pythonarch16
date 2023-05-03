@@ -20,7 +20,7 @@ delete(self,e) – usuwa wskazany element,
 append (self, e, func=None) – dodaje elementy do listy w sposób posortowany. (25%)
 func – jaki będzie warunek sortownia – określi funkcja, jeżeli None – zwykłe porównanie 2
 obiektów za pomocą >=](./ZAD_1)
-- [x]  [Zadanie2 (40%):
+- [ ]  [Zadanie2 (40%):
 Zmodyfikować zadanie z poprzednich zajęć tak aby używała klasy Student ,MySortedList oraz aby
 ocenianie przebiegało zgodnie z zasadami zaliczenia:
 1 ocena za projekt – 40 pkt
