@@ -1,4 +1,4 @@
-# [Zajęcia 6](./lab7b.pdf)
+# [Zajęcia 7](./lab7b.pdf)
 
 - [x] [Napisz aplikację okienkową pozwalającą wyświetlić(20%)](./main.py)
 - [x]  [zapisać(20%),](./main.py)
