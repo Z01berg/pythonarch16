@@ -9,3 +9,4 @@ Zestawy zadań:
 - [x] [Kolos](./Kolos)
 - [x] [6 Zestaw zadań](./C_6)
 - [x] [7 Zestaw zadań](./C_7)
+- [x] [Projekt zaliczeniowy](./Projekt)
