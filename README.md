@@ -11,7 +11,7 @@ Zestawy zadań:
 - [ ] [8 Zestaw zadań](./C_8)
 - [x] [9 Zestaw zadań](./C_9)
 ---
-- [x] [Kolos](./Kolos)
+- [x] [Kolos 1](./Kolos)
 - [x] [Kolos 2](./Kolos2)
 - [x] [Kolos 3](./Kolos3)
 ---
