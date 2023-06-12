@@ -11,4 +11,4 @@ Zestawy zadań:
 - [x] [7 Zestaw zadań](./C_7)
 - [x] [Kolos 2](./Kolos2)
 - [x] [Projekt zaliczeniowy](./Projekt)
-- [ ] [Kolos 3](./Kolos3)
+- [x] [Kolos 3](./Kolos3)

@@ -10,9 +10,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 
-# PROJEKT DZIAŁA NA 13 ATRYBUTACH ALE DZIAŁAMY TYLKO Z 2 ATRYBUTAMI:
-# ATRYBUT 1 - Alcohol
-# ATRYBUT 2 - Malic_acid
 
 class PredictDialog:
     def __init__(self, parent, model):
@@ -27,13 +24,13 @@ class PredictDialog:
         self.entries = []
 
         for label in self.labels:
-            attr_label = tk.Label(self.top, text=label + ":")
+            attr_label = tk.Label(self.top, text=label + ":", width=20, font=("Arial", 12))
             attr_label.pack()
             attr_entry = tk.Entry(self.top)
             attr_entry.pack()
             self.entries.append(attr_entry)
 
-        self.predict_button = tk.Button(self.top, text="Predict", command=self.predict)
+        self.predict_button = tk.Button(self.top, text="Predict", command=self.predict, width=20, font=("Arial", 12))
         self.predict_button.pack()
 
     def predict(self):
@@ -64,13 +61,13 @@ class AddDataDialog:
         self.entries = []
 
         for label in self.labels:
-            attr_label = tk.Label(self.top, text=label + ":")
+            attr_label = tk.Label(self.top, text=label + ":", width=20, font=("Arial", 12))
             attr_label.pack()
             attr_entry = tk.Entry(self.top)
             attr_entry.pack()
             self.entries.append(attr_entry)
 
-        self.add_button = tk.Button(self.top, text="Add", command=self.add_data)
+        self.add_button = tk.Button(self.top, text="Add", command=self.add_data, width=20, font=("Arial", 12))
         self.add_button.pack()
 
     def add_data(self):
@@ -96,7 +93,7 @@ class RebuildModelDialog:
         self.conn = conn
         self.model = model
 
-        self.rebuild_button = tk.Button(self.top, text="Rebuild", command=self.rebuild)
+        self.rebuild_button = tk.Button(self.top, text="Rebuild", command=self.rebuild, width=20, font=("Arial", 12))
         self.rebuild_button.pack()
 
     def rebuild(self):
@@ -161,7 +158,7 @@ class MLApp:
         self.plot_button.pack()
 
     def load_data(self, filename):
-        df = pd.read_csv(filename, header=None)
+        df = pd.read_csv(filename, header=None, delimiter=',')
         df.columns = ["class", "Alcohol", "Malic_Acid", "Ash", "Alcalinity_of_ash", "Magnesium", "Total_phenols", "Flavanoids",
                       "Nonflavanoid_phenols", "Proanthocyanins", "Color_intensity", "Hue", "OD280_OD315_of_diluted_wines", "Proline"]
         df.to_sql("ml_data", self.conn, if_exists="append", index=False)
@@ -220,6 +217,7 @@ class MLApp:
 
         treeview["columns"] = df.columns.tolist()
         treeview.column("#0", width=0, stretch=tk.NO)
+        treeview.delete(*treeview.get_children())
 
         for column in df.columns.tolist():
             treeview.heading(column, text=column)
@@ -265,17 +263,17 @@ class MLApp:
             self.model = model
 
             # Create input fields
-            self.attr1_label = tk.Label(self.top, text="Alcohol:")
+            self.attr1_label = tk.Label(self.top, text="Alcohol:", width=20, font=("Arial", 12))
             self.attr1_label.pack()
             self.attr1_entry = tk.Entry(self.top)
             self.attr1_entry.pack()
 
-            self.attr2_label = tk.Label(self.top, text="Malic_acid:")
+            self.attr2_label = tk.Label(self.top, text="Malic_acid:", width=20, font=("Arial", 12))
             self.attr2_label.pack()
             self.attr2_entry = tk.Entry(self.top)
             self.attr2_entry.pack()
 
-            self.predict_button = tk.Button(self.top, text="Predict", command=self.predict)
+            self.predict_button = tk.Button(self.top, text="Predict", command=self.predict, width=20, font=("Arial", 12))
             self.predict_button.pack()
 
         def predict(self):
@@ -294,22 +292,22 @@ class MLApp:
             self.conn = conn
 
             # Create input fields
-            self.class_label = tk.Label(self.top, text="Class:")
+            self.class_label = tk.Label(self.top, text="Class:", width=20, font=("Arial", 12))
             self.class_label.pack()
             self.class_entry = tk.Entry(self.top)
             self.class_entry.pack()
 
-            self.attr1_label = tk.Label(self.top, text="Alcohol:")
+            self.attr1_label = tk.Label(self.top, text="Alcohol:", width=20, font=("Arial", 12))
             self.attr1_label.pack()
             self.attr1_entry = tk.Entry(self.top)
             self.attr1_entry.pack()
 
-            self.attr2_label = tk.Label(self.top, text="Malic_acid:")
+            self.attr2_label = tk.Label(self.top, text="Malic_acid:", width=20, font=("Arial", 12))
             self.attr2_label.pack()
             self.attr2_entry = tk.Entry(self.top)
             self.attr2_entry.pack()
 
-            self.add_button = tk.Button(self.top, text="Add", command=self.add_data)
+            self.add_button = tk.Button(self.top, text="Add", command=self.add_data, width=20, font=("Arial", 12))
             self.add_button.pack()
 
         def add_data(self):
@@ -331,7 +329,7 @@ class MLApp:
             self.conn = conn
             self.model = model
 
-            self.rebuild_button = tk.Button(self.top, text="Rebuild", command=self.rebuild)
+            self.rebuild_button = tk.Button(self.top, text="Rebuild", command=self.rebuild, width=20, font=("Arial", 12))
             self.rebuild_button.pack()
 
         def rebuild(self):
