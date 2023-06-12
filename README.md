@@ -8,7 +8,7 @@ Zestawy zadań:
 - [x] [5 Zestaw zadań](./C_5)
 - [x] [6 Zestaw zadań](./C_6)
 - [x] [7 Zestaw zadań](./C_7)
-- [x] [8 Zestaw zadań](./C_8)
+- [ ] [8 Zestaw zadań](./C_8)
 - [x] [9 Zestaw zadań](./C_9)
 ---
 - [x] [Kolos](./Kolos)
